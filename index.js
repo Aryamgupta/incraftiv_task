@@ -1,4 +1,4 @@
-console.log("working");
+// console.log("working");
 
 let mainCategories = [];
 let categoriesWebId = [];
@@ -104,7 +104,7 @@ const setMobileSubCategory = (key) => {
   };
   u1.appendChild(u1p);
   u1.appendChild(u1btn2);
-  console.log(subCategoryList);
+  // console.log(subCategoryList);
   //   adding real lists
 
   let fullChilds = document.createElement("div");
@@ -122,14 +122,14 @@ const setMobileSubCategory = (key) => {
     ulSubCat.classList.add("mobileActualChildCategoryList");
 
     let filteredData = childeCategoryList.filter((l) => l.parentId === el.id);
-    console.log(filteredData);
+    // console.log(filteredData);
     filteredData.forEach((k) => {
       let childNode = document.createElement("li");
       childNode.classList.add("mobileChildcategorylistItem");
       childNode.innerHTML = `<img src="" width="95px" height="95px" />
               <p>${k.categoryName}</p>`;
       ulSubCat.appendChild(childNode);
-      console.log(k.images);
+      // console.log(k.images);
     });
 
     subCcat.appendChild(ulSubCat);
@@ -139,7 +139,8 @@ const setMobileSubCategory = (key) => {
   //   console.log(fullChilds);
   mobileChildMainConatiner.appendChild(u1);
   mobileChildMainConatiner.appendChild(fullChilds);
-  console.log(mobileChildMainConatiner);
+  // console.log(mobileChildMainConatiner);
+  
   mobileChildMainConatiner.style.display = "block";
 };
 
