@@ -11,11 +11,114 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <!-- nav bar code starts -->
-    <!-- <div class="mobileNavigationPanel"></div> -->
+    <div class="mobileNavigationPanel">
+      <ul class="mobileMainCategory">
+        <li class="d-flex flex-row justify-content-between">
+          <a>
+            <img src="./icons/userICon.svg" height="32px" width="32px" />
+            Login</a
+          >
+          <button class="closeBtn mobileNavCloseBtn" type="button" id="">
+            &#x2715;
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mobileChildCategoiresConatiner">
+      <!-- <div class="mainCategoryHeadingholde">
+        <button>
+          <img src="./icons/prevBtn.svg" />
+        </button>
+        <p>MEN</p>
+        <button class="closeBtn mobileNavCloseBtn" type="button" id="">
+          &#x2715;
+        </button>
+      </div>
+      <div class="mobilechildCategorylist">
+        <div class="mobilechildCategory">
+          <div class="mobilechildCategoryHeading">
+            BOTTOM WEAR
+            <div class="movilechildheadline"></div>
+          </div>
+          <ul class="mobileActualChildCategoryList">
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mobilechildCategory">
+          <div class="mobilechildCategoryHeading">
+            BOTTOM WEAR
+            <div class="movilechildheadline"></div>
+          </div>
+          <ul class="mobileActualChildCategoryList">
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mobilechildCategory">
+          <div class="mobilechildCategoryHeading">
+            BOTTOM WEAR
+            <div class="movilechildheadline"></div>
+          </div>
+          <ul class="mobileActualChildCategoryList">
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+            <li class="mobileChildcategorylistItem">
+              <img src="./images/mainM.avif" width="95px" height="95px" />
+              <p>Jeans</p>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+
     <div class="v2navigaton">
       <nav class="navbar navbar-expand-lg v2navbar">
         <div class="container-fluid">
@@ -23,9 +126,8 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
             aria-expanded="false"
+            id="mobileViewNavigationOpen"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
@@ -355,6 +457,10 @@
 
     <!-- js added -->
     <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
